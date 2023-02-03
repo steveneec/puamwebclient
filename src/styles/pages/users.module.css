@@ -1,0 +1,19 @@
+.addbtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: var(--color-border);
+  outline: none;
+  border: none;
+  scale: 1;
+  transition: all 0.2s;
+}
+
+.addbtn:hover {
+  cursor: pointer;
+  scale: 1.1;
+  transition: all 0.2s;
+}

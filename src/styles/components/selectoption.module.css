@@ -1,0 +1,18 @@
+.select {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.select select {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+}
+
+.select label {
+  color: var(--color-text);
+  font-weight: 600;
+}
